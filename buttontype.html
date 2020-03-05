@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function myAddition()
+    {
+       var i=parseInt(document.getElementById('sub1').value);
+       var j=parseInt(document.getElementById('sub2').value);
+       alert(i+j);
+       var k = i+j;
+       var k=parseInt(document.getElementById('sum').value=k);
+       if(k>60)
+       alert('passed');
+       else
+       alert('failed');
+    }
+    </script>
+</head>
+<body>
+
+    <lable="txt_pswd">SUBJECT:</lable><br><br>
+
+    subject 1<input type="text" id="sub1"><br><br>
+    subject 2<input type="text" id="sub2"><br><br>
+    sum<input type="text" id="sum"><br><br>
+
+   <input type="button" name="btn_click" value="clickMe" onclick="myAddition();">
+    
+</body>
+</html>
